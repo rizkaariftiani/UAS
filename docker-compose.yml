@@ -13,11 +13,11 @@ services:
       - backend
 
   db:
-    container_name: db
+    container_name: database
     image: mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_ROOT_PASSWORD: Ik@nur2341
       MYSQL_DATABASE: newsportal
     ports:
       - "3306:3306"
